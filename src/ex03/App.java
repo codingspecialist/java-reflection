@@ -53,7 +53,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
         String uri = sc.nextLine();
 
-        Set<Class> classes = componentScan("ex02");
+        Set<Class> classes = componentScan("ex03");
         findUri(classes, uri);
 
     }
